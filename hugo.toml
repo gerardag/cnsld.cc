@@ -11,6 +11,9 @@ theme = 'smol'
 [markup.goldmark.renderer]
 unsafe= true
 
+[permalinks]
+posts = "/blog/:year/:title/"
+
 [[module.mounts]]
 source = 'static'
 target = 'static'
