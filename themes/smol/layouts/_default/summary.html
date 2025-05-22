@@ -1,0 +1,19 @@
+<article class="summary">
+	<header>
+		<h2>
+			<a href="{{ .Permalink }}">{{ .Title }}</a>
+		</h2>
+	</header>
+	<p>{{ .Description }}</p>
+	<footer class="time">
+		{{ partial "time" . }}
+	</footer>
+	<!-- {{ range .Params.tags }}
+	<a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+	{{ end }} -->
+
+	<!-- {{ .Summary }} -->
+	<!-- {{ if .Truncated }}
+		<a href="{{ .Permalink }}">Read more...</a>
+	{{ end }} -->
+</article>

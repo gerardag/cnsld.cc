@@ -1,0 +1,43 @@
+baseURL = 'https://csld.cc/'
+defaultContentLanguage = 'ca'
+languageCode = 'ca'
+title = 'cnsld.cc'
+theme = 'smol'
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
+[markup.goldmark.renderer]
+unsafe= true
+
+[permalinks]
+posts = "/blog/:year/:title/"
+
+[[module.mounts]]
+source = 'static'
+target = 'static'
+
+[[module.mounts]]
+source = 'images'
+target = 'static/images'
+
+[pagination]
+  disableAliases = false
+  pagerSize = 10
+  path = 'page'
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Blog"
+url = "/blog"
+weight = 2
+
+[[menu.main]]
+name = "Slash"
+url = "/slash"
+weight = 3

@@ -1,0 +1,23 @@
+{{ define "main" }}
+	<main class="single-post">
+		<section>
+			<article>
+				<header>
+					<p class="time opacity-80">
+						{{ partial "time" . }}
+					</p>
+					<h1>{{ .Title }}</h1>
+					<h2 class="description">{{ .Description }}</h2>
+
+					<!-- {{ range .Params.tags }}
+						<a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+					{{ end }} -->
+				</header>
+				<div class="post-content">
+					{{ .Content }}
+				</div>
+			</article>
+		</section>
+	</main>
+<!-- {{ partial "sidebar.html" . }} -->
+{{ end }}

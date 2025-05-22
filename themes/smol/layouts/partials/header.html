@@ -1,0 +1,14 @@
+<header class="site-header">
+	<div>
+		<a href="http://localhost:1313/">
+			<img src="/images/cnsld.webp" alt="cnsld.cc" width="auto" height="50px">
+		</a>
+		<nav class="main-nav">
+			{{ with .Site.Menus.main }}
+				{{ range . }}
+					<a href="{{ .URL | relURL }}">{{ .Name }}</a>
+				{{ end }}
+			{{ end }}
+		</nav>
+	</div>
+</header>
