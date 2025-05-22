@@ -1,26 +1,19 @@
 {{ define "main" }}
-	<main>
-		{{ $listtitle := .Title }}
-		{{ if or .Title .Content }}
-		<div>
-			{{ with .Title }}<h1>{{ . }}</h1>{{ end }}
-			{{ with .Content }}<div>{{ . }}</div>{{ end }}
-		</div>
-		{{ end }}
-		
-		<ul>
-		    {{ range .Paginator.Pages }}
-		    <li>
-		        <div class="post-title">
-				{{ if eq $listtitle "Posts" }}
-				    {{ .Date.Format "2006-01-02" }} <a href="{{ .RelPermalink }}">{{.Title }}</a>
-				{{ else }}
-				    <a href="{{ .RelPermalink }}">{{.Title }}</a>
+	<main class="site-main">
+		<section class="main-section page">
+			<header>
+				<h1>{{ .Title }}</h1>
+				<h2>{{ .Description }}</h2>
+			</header>
+			<div>
+				{{ $listtitle := .Title }}
+				{{ if or .Title .Content }}
+					{{ with .Content }}
+						{{ . }}
+					{{ end }}
 				{{ end }}
-		        </div>
-		    </li>
-		    {{ end }}
-		</ul>
-		{{ partial "pagination.html" . }}
+			</div>
+		</section>
+		<!-- {{ partial "pagination.html" . }} -->
 	</main>
 {{ end }}

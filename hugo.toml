@@ -24,7 +24,7 @@ target = 'static/images'
 
 [pagination]
   disableAliases = false
-  pagerSize = 10
+  pagerSize = 100
   path = 'page'
 
 [[menu.main]]
@@ -33,11 +33,6 @@ url = "/"
 weight = 1
 
 [[menu.main]]
-name = "Blog"
-url = "/blog"
-weight = 2
-
-[[menu.main]]
 name = "Slash"
 url = "/slash"
-weight = 3
+weight = 2
