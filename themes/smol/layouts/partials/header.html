@@ -1,7 +1,8 @@
 <header class="site-header">
 	<div>
 		<a href="/">
-			<img src="/images/cnsld.webp" alt="cnsld.cc" width="auto" height="50px">
+			{{ $image := resources.Get "images/cnsld.webp" }}
+			<img src="{{ $image.RelPermalink }}" alt="cnsld.cc" width="auto" height="50px">
 		</a>
 		<nav class="main-nav">
 			{{ with .Site.Menus.main }}
