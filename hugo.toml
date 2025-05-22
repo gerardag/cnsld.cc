@@ -1,4 +1,4 @@
-baseURL = 'https://csld.cc/'
+baseURL = '/'
 defaultContentLanguage = 'ca'
 languageCode = 'ca'
 title = 'cnsld.cc'
