@@ -1,9 +1,9 @@
-+++
-title = 'El meu homelab'
-Description = 'Els ferros.'
-date = 2025-05-21T10:00:00Z
-draft = false
-+++
+---
+title: 'El meu homelab'
+Description: 'Els ferros.'
+date: 2025-05-10T10:00:00Z
+draft: false
+---
 
 Fa uns anys que tinc aparells per casa que fan cosetes: des d'una RPi Model B de fa anys, passant per una RPi 3 Model A, i una RPi 3 de 4GB, entre altres. I del que inicialment era només Home Assistant amb uns quants plugins per tenir algun servei extra (Vaultwarden, Adguard i algun més) he acabat amb 2 mini-pcs amb proxmox, màquines virtuals i serveis desplegats amb k8s i gestionat amb Terraform.
 
