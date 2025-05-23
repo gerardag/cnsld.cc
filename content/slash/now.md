@@ -28,4 +28,4 @@ Pots fer una ullada a les pel·lícules a <a href="https://letterboxd.com/gerard
 
 ## Projectes
 
-Jugar amb Home Assistant i crear nous artilugis per la casa.
+- Organitzant els panells d'energia i clima de Home Assistant.
