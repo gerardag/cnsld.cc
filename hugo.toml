@@ -35,3 +35,9 @@ weight = 1
 name = "Slash"
 url = "/slash"
 weight = 2
+
+[languages.ca]
+  weight = 1
+  [languages.ca.params.formats.date]
+    long = "2 January, 2006"
+    short = "2/1/06"

@@ -1,1 +1,1 @@
-<time>{{ .Date.Format "January 1, 2006" }}</time>
+<time>{{ partial "functions/localize-date" (dict "date" .Date "format" site.Params.formats.date.long) }}</time>

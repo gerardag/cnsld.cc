@@ -4,7 +4,7 @@
 			<article>
 				<header>
 					<p class="time opacity-80">
-						<time>{{ .Date.Format "el Monday 2 de January de 2006 3:04:05 PM" }}</time>
+						{{ partial "time" .}}
 					</p>
 					<h1>{{ .Title }}</h1>
 					<h2 class="description">{{ .Description }}</h2>
