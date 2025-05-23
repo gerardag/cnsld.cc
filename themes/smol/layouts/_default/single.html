@@ -4,7 +4,9 @@
 			<article>
 				<header>
 					<p class="time opacity-80">
+						{{ if .Date }}
 						{{ partial "time" .}}
+						{{ end }}
 					</p>
 					<h1>{{ .Title }}</h1>
 					<h2 class="description">{{ .Description }}</h2>

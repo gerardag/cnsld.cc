@@ -1,6 +1,5 @@
 ---
 title: Now
-date: 2025-05-19T10:00:00Z
 comments: false
 ---
 
