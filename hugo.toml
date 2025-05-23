@@ -1,6 +1,5 @@
 baseURL = '/'
-defaultContentLanguage = 'ca'
-languageCode = 'ca'
+languageCode = 'ca_ES'
 title = 'cnsld.cc'
 theme = 'smol'
 

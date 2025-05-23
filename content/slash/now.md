@@ -9,7 +9,7 @@ Basada en la pàgina de <a href="https://nownownow.com/about" target="_blank">no
 
 ## Què faig?
 
-Front-end gestionant CDN. I jugar amb Home Assistant.
+Front-end gestionant CDN.
 
 ## Llibres
 
@@ -26,3 +26,7 @@ Moltes series al mateix temps:
 - Andor
 
 Pots fer una ullada a les pel·lícules a <a href="https://letterboxd.com/gerardag/" target="_blank">Letterboxd</a>.
+
+## Projectes
+
+Jugar amb Home Assistant i crear nous artilugis per la casa.
