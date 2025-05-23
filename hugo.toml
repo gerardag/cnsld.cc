@@ -1,7 +1,11 @@
 baseURL = '/'
 languageCode = 'ca_ES'
-title = 'cnsld.cc'
+title = 'Una mica de tot - cnsld.cc'
 theme = 'smol'
+
+[params]
+  description = "Un blog personal on comparteixo les coses que m'agraden i que em venen de gust."
+
 
 [caches]
   [caches.images]
