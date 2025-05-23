@@ -1,14 +1,16 @@
 # cnsld.cc
 
-El contingut d'aquest repos és tot el contingut del blog cnsld.cc.
+[![Deploy Hugo site to Pages](https://github.com/gerardag/cnsld.cc/actions/workflows/hugo.yaml/badge.svg)](https://github.com/gerardag/cnsld.cc/actions/workflows/hugo.yaml)
 
-Funciona amb Hugo i un tema personalitzat. El contingut es troba a la carpeta `content` i el tema a la carpeta `themes`.
+Blog personal on explico allò que em ve de gust.
+
+Creat amb Hugo i un tema personalitzat. El contingut es troba a la carpeta `content` i el tema a la carpeta `themes`.
 
 ## Instal·lar Hugo
 
 Per instal·lar Hugo, podeu seguir les instruccions de la [documentació oficial](https://gohugo.io/getting-started/installing/).
 
-## Arrencar el servidor
+## Arrencar el servidor
 
 Per arrencar el servidor, podeu executar la següent ordre:
 
