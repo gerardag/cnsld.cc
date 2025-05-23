@@ -26,6 +26,6 @@ Moltes series al mateix temps:
 
 Pots fer una ullada a les pel·lícules a <a href="https://letterboxd.com/gerardag/" target="_blank">Letterboxd</a>.
 
-## Projectes
+## Projectes
 
 Jugar amb Home Assistant i crear nous artilugis per la casa.

@@ -32,8 +32,8 @@ url = "/"
 weight = 1
 
 [[menu.main]]
-name = "Slash"
-url = "/slash"
+name = "Now"
+url = "/now"
 weight = 2
 
 [languages.ca]

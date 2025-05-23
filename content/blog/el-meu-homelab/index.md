@@ -28,3 +28,7 @@ Els dos mini-pcs tenen Proxmox instal·lat i són nodes del mateix datacenter (s
 
 És el meu node "secundari". Hi ha una màquina virtual amb Home Assistant i un container LXC amb el Adguard.
 
+---
+
+I de moment això és tot. Si el vaig actualitzant o ampliant aniré comentant aquestes millores dins del post.
+

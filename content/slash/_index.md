@@ -4,5 +4,8 @@ description: Tots els/slash
 comments: false
 ---
 
-- [/now](/slash/now) — Què tinc entremans actualment
-- [/books](/slash/books) — Quins llibres tinc sobre la taula
+### [Now](/slash/now)
+Un resum molt ràpid del que actualment tinc sobre la taula.
+
+### [Default apps](/slash/default-apps)
+Les apps que utilitzo per al meu dia a dia.
