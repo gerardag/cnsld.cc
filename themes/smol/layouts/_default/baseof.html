@@ -17,7 +17,7 @@
 	{{ with .OutputFormats.Get "RSS" -}}
 		{{ printf `<link rel="%s" type="%s" href="%s" title="%s">` .Rel .MediaType.Type .RelPermalink $.Site.Title | safeHTML }}
 	{{- end }}
-	<script defer src="https://cloud.umami.is/script.js" data-website-id="a9e741c4-11a3-4b0e-9375-9339a9e79602"></script>
+	<script defer src="/um.js" data-website-id="a9e741c4-11a3-4b0e-9375-9339a9e79602"></script>
 </head>
 <body>
 	<div class="container">
