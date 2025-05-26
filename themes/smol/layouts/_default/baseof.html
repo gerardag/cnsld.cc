@@ -18,7 +18,9 @@
 		{{ printf `<link rel="%s" type="%s" href="%s" title="%s">` .Rel .MediaType.Type .RelPermalink $.Site.Title | safeHTML }}
 	{{- end }}
 	{{ $script := resources.Get "scripts/um-script.js" }}
-	<script defer src="{{ $script.RelPermalink }}" data-website-id="a9e741c4-11a3-4b0e-9375-9339a9e79602"></script>
+	{{ if hugo.IsProduction }}
+		<script defer src="{{ $script.RelPermalink }}" data-website-id="a9e741c4-11a3-4b0e-9375-9339a9e79602"></script>
+	{{ end }}
 </head>
 <body>
 	<div class="container">
