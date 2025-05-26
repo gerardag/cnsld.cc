@@ -6,12 +6,20 @@
 				<h2>{{ .Description }}</h2>
 			</header>
 			<div class="post-content">
-				{{ $listtitle := .Title }}
+				{{ range .Pages }}
+					{{ if eq .Type "slash" }}
+						<p><a href="{{ .RelPermalink }}">
+							<strong>{{ .LinkTitle }}</strong>
+						</a></p>
+						<p>{{ .Description }}</p>
+					{{ end }}
+				{{ end }}
+				<!-- {{ $listtitle := .Title }}
 				{{ if or .Title .Content }}
 					{{ with .Content }}
 						{{ . }}
 					{{ end }}
-				{{ end }}
+				{{ end }} -->
 			</div>
 		</section>
 		<!-- {{ partial "pagination.html" . }} -->

@@ -1,6 +1,8 @@
 ---
-title: /Uses
-description: Què utilitzo
+title: /uses
+description: Què utilitzo al meu dia a dia
+tags:
+  - slashes
 draft: false
 ---
 ## Tech

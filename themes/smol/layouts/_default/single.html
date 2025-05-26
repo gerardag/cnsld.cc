@@ -1,21 +1,35 @@
 {{ define "main" }}
+{{ $type := .Type }}
 	<main class="single-post">
 		<section>
 			<article>
-				<header>
+				{{ if or (eq $type "weeknote") (eq $type "slash") }}
+					<header>
+				{{ else }}
+					<header class="text-centered">
+				{{ end }}
 					<p class="time opacity-80">
 						{{ if .Date }}
 							{{ partial "time" .}}
 						{{ end }}
 					</p>
 					<h1>{{ .Title }}</h1>
-					<h2 class="description">{{ .Description }}</h2>
-
-					<!-- {{ range .Params.tags }}
-						<a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
-					{{ end }} -->
+					{{ if eq $type "post"}}
+						<h2 class="description">{{ .Description }}</h2>
+					{{ end }}
+					{{ if or (eq $type "weeknote") (eq $type "slash") }}
+						<p class="tags">
+							{{ range .Params.tags }}
+								<a class="tag" href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">#{{ . }}</a>
+							{{ end }}
+						</p>
+					{{ end }}
 				</header>
 				<div class="post-content">
+					{{ if eq $type "weeknote" }}
+						<h2>{{ .Params.Week}}</h2>
+					{{ end }}
+
 					{{ .Content }}
 				</div>
 			</article>

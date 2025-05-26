@@ -1,6 +1,8 @@
 ---
-title: Now
-comments: false
+title: /now
+description: Un breu resum del que tinc sobre la taula
+tags:
+  - slashes
 ---
 
 Basada en la pàgina de <a href="https://nownownow.com/about" target="_blank">now</a>.
