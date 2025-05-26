@@ -9,11 +9,11 @@ Robat de manera furtiva del recopilatori de default-apps d'[Hemispheric Views 09
 
 Aquí van les meves:
 
-- 📨 Client de mail: Mail de iOS
+- 📨 Client de mail: Mail d'iOS
 - 📮 Servidor de mail: [Nubulus network](https://www.nubulusnetwork.com/) i Gmail
-- 🗒️ Notes i markdown: Notes de iOS i Obsidian
+- 🗒️ Notes i markdown: Notes d'iOS i Obsidian
 - ✅ To-do: Tweek.so
-- 📷 Càmera: càmera de iOS i [65x24](https://65x24.net/)
+- 📷 Càmera: càmera d'iOS i [65x24](https://65x24.net/)
 - 🏞️ Gestió de fotos: Immich
 - 📅 Calendari: Calendari de Google
 - ☁️ Cloud: Nextcloud auto allotjat
