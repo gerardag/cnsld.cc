@@ -7,7 +7,7 @@ draft: false
 
 El gran tema.
 
-Totes les dades de casa estan centralitzades al NAS i on els diferents servies hi accedeixen.
+Totes les dades de casa estan centralitzades al NAS i on els diferents serveis hi accedeixen.
 
 ## TrueNAS
 
