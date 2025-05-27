@@ -1,6 +1,6 @@
 ---
-title: 'Controlar el consum del homelab'
-Description: 'Va de Watts i de diners.'
+title: Controlar el consum del homelab
+Description: Va de Watts i de diners.
 date: 2025-05-20T10:00:00Z
 draft: false
 ---

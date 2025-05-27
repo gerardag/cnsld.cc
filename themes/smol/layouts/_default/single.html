@@ -14,7 +14,7 @@
 						{{ end }}
 					</p>
 					<h1>{{ .Title }}</h1>
-					{{ if eq $type "post"}}
+					{{ if eq $type "blog"}}
 						<h2 class="description">{{ .Description }}</h2>
 					{{ end }}
 					{{ if or (eq $type "weeknote") (eq $type "slash") }}
