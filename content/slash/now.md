@@ -14,9 +14,9 @@ Front-end gestionant CDN.
 
 ## Llibres
 
-A punt d'acabar <a href="https://flowpress.media/producte/mata-nazis/?lang=ca" target="_blank">Mata nazis</a>.
+Acabar <a href="https://flowpress.media/producte/mata-nazis/?lang=ca" target="_blank">Mata nazis</a>.
 
-Un cop acabat, començar la saga de Blackwater.
+Començant la saga de Blackwater. Primer llibre, La Riada.
 
 ## Mirant
 
