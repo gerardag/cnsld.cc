@@ -244,6 +244,28 @@ ul ul {
   margin-block-end: calc(var(--spacing) * 12);
 }
 
+table {
+  border: 1px solid var(--color);
+  border-collapse: collapse;
+  margin-block: 4rem;
+
+  thead {
+    background-color: var(--soft-color);
+
+    th {
+      font-weight: 700;
+    }
+  }
+
+  th,
+  td {
+    border-bottom: 1px solid var(--color);
+    border-right: 1px solid var(--color);
+    padding-block: calc(var(--spacing) * 2);
+    padding-inline: calc(var(--spacing) * 2);
+  }
+}
+
 .opacity-80 {
   opacity: 0.8;
 }
