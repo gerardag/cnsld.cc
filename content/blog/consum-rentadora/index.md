@@ -10,7 +10,7 @@ Després d'algunes rentades ja podem comparar-la amb la vella.
 
 ## Soroll
 
-El soroll ha baixat una barbaritat. Va tancada per tot arreu i al ser, fa que realment sigui molt més silenciosa que l'anterior, tant quan renta co mquan centrifuga
+El soroll ha baixat una barbaritat. Va tancada per tot arreu i al ser, fa que realment sigui molt més silenciosa que l'anterior, tant quan renta com quan centrifuga.
 
 ## Consum
 
