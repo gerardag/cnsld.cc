@@ -32,4 +32,4 @@ I l'"on" encara més fàcil, a un StorageBox de Hetzner que em costa 3.58€/mes
 
 Tinc un altre sistema de còpies per les configuracions dels serveis que tinc a casa i que funcionen d'una manera diferent.
 
-Pels serveis tinc un cron que em va passar el meu amic [Aleix](https://aleix.cloud), on cada matinada fa una còpia amb restic i a la puja a Borgbase, fent ús del free tier. De moment ja em serveix i quan em quedi sense espai o vulgui canviar-ho doncs ja veurem què fem.
+Pels serveis tinc un cron que em va passar el meu amic [Aleix](https://aleix.cloud), on cada matinada fa una còpia amb restic i la puja a Borgbase, amb la opció base de 250GB i $24/any.
