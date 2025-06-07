@@ -8,6 +8,8 @@ Hem comprat una rentadora Samsung amb IA, 1000 programes, gestió de consums, Sm
 
 Després d'algunes rentades ja podem comparar-la amb la vella.
 
+La rentadora és una Samsung WW90DG6U85HHU3 amb certificació energètica de classe A.
+
 ## Soroll
 
 El soroll ha baixat una barbaritat. Va tancada per tot arreu i al ser nova, fa que realment sigui molt més silenciosa que l'anterior, tant quan renta com quan centrifuga.
