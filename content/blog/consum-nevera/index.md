@@ -30,8 +30,9 @@ Comparant les dues ens quedaria així per un consum mensual:
 També tinc la opció de vincular-la amb HA però amb un plugin de HACS. Permet controlar les temperatures, seleccionar els modes predeterminats que té i alguna opció més. Però per exemple, tot i tenir sensor de porta obert i veure'l sempre reporta un estat de "obert", cosa que no em permet poder fer auomatitzacions. Una pena.
 
 
-<img src="ha-nevera.webp" alt="HA nevera" style="max-width: 500px" />
-
+<figure>
+	<img src="ha-nevera.webp" alt="HA nevera" style="max-width: 350px" />
+</figure>
 
 ## Conclusió
 
