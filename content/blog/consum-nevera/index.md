@@ -16,7 +16,7 @@ Els pics de potència són semblants, sobre els 200W. Però en el **consum sosti
 
 <img src="consum-nevera.webp" alt="Consum neveres" style="max-width: 100%" />
 
-De la mateixa manera que la rentadora, al tenir Wifi i estar connectada també té un **consum residual de 1.18W**, la vella tot i no tenir Wifi també en teni, però més baix, de 0.7W.
+De la mateixa manera que la rentadora, al tenir Wifi i estar connectada també té un **consum residual de 1.18W**, la vella, tot i no tenir Wifi, també té un consum residual però més baix, de 0.7W.
 
 Comparant les dues ens quedaria així per un consum mensual:
 
