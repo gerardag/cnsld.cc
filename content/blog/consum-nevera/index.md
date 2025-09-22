@@ -6,7 +6,7 @@ draft: false
 ---
 Aquest passat més de Maig ha estat un mes terrible: primer la rentadora i després la nevera. La part bona és que ara tenim uns electrodomèstics que gasten molt menys.
 
-Fa uns dies vaig explicar [com anem amb la rentadora nova](/blog/consum-rentadora) i ara li toca a la nevera. Però en 
+Fa uns dies vaig explicar [com anem amb la rentadora nova](/blog/consum-rentadora) i ara li toca a la nevera. Però en
 aquest cas és molt més fàcil.
 
 La nevera és una Haier HTW5620CNMG amb certificació energètica de classe C.
@@ -23,7 +23,7 @@ Comparant les dues ens quedaria així per un consum mensual:
 | Versió | Consum | Cost
 | :-------- | :------- | :------- |
 | Vella (2012) | 48,9 kWh | 14,181€/mes
-| Nove (2025) | 22,80 kWh | 6,612€/mes
+| Nova (2025) | 22,80 kWh | 6,612€/mes
 
 ## Home Assistant
 
