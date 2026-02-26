@@ -1,10 +1,16 @@
 {{ define "main" }}
 {{ $type := .Type }}
-	<main class="single-post">
+	{{ if eq $type "the-ones" }}
+		<main class="the-ones-post">
+	{{ else }}
+		<main class="single-post">
+	{{ end }}
 		<section>
 			<article>
 				{{ if or (eq $type "weeknote") (eq $type "slash") }}
 					<header>
+				{{ else if eq $type "the-ones" }}
+					<header class="the-ones-header">
 				{{ else }}
 					<header class="text-centered">
 				{{ end }}

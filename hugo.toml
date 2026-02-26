@@ -15,7 +15,7 @@ theme = 'smol'
 unsafe= true
 
 [permalinks]
-posts = "/blog/:year/:title/"
+blog = "/blog/:year/:title/"
 
 [[module.mounts]]
 source = 'static'

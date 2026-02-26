@@ -13,6 +13,12 @@
 						</a></p>
 						<p>{{ .Description }}</p>
 					{{ end }}
+					{{ if eq .Type "the-ones" }}
+						<p><a href="{{ .RelPermalink }}">
+							<strong>{{ .LinkTitle }}</strong>
+						</a></p>
+						<p>{{ .Description }}</p>
+					{{ end }}
 				{{ end }}
 				<!-- {{ $listtitle := .Title }}
 				{{ if or .Title .Content }}

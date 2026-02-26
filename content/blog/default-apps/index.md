@@ -5,31 +5,39 @@ date: 2025-05-21T10:00:00Z
 comments: false
 ---
 
-Robat de manera furtiva del recopilatori de default-apps d'[Hemispheric Views 097 - Duel of the Defaults!](https://listen.hemisphericviews.com/097) que em vaig trobar mentre navegava per internet (no sé ni com vaig arribar-hi).
+Aquí va les aplicaciones que faig servir de cada categoria:
 
-Aquí van les meves:
+| Categoria | App |
+|--------- |-------- |
+| 📨 Client de mail | Mail d'iOS |
+| 📮 Servidor de mail | [Nubulus network](https://www.nubulusnetwork.com/) i Gmail |
+| 🗒️ Notes i markdown | Notes d'iOS ~~i Obsidian~~ |
+| ✅ To-do | [Tweek.so](https://tweek.so/) |
+| 📷 Càmera | càmera d'iOS i [65x24](https://65x24.net/) |
+| 🏞️ Gestió de fotos | [Immich](https://immich.app/) |
+| 📅 Calendari | Calendari de Google |
+| ☁️ Cloud | Nextcloud |
+| 📰 RSS | ~~Miniflux~~ |
+| 👬 Contates | contactes iOS |
+| 🧭 Navegador | Chrome |
+| 💬 Chat | Telegram i Whatasapp |
+| 🔖 Bookmarks | Google |
+| 📑 Read-it-later | n/a |
+| 🧑‍💻 Editor de codi | VS Code |
+| 📜 Word Processing | Nextcloud |
+| 📈 Fulls de càlcul | Nextcloud |
+| 📊 Presentacions | n/a |
+| 🛒 Llista de la compra | [Tweek.so](https://tweek.so/) i paper i llapis |
+| 🍴 Planificació d'àpats | n/a |
+| 💰 Planificació de diners | ~~Actual budget~~ |
+| 📰 Notícies | [elnacional.cat](https://elnacional.cat) i [ara.cat](https://ara.cat)  |
+| 🎵 Música | Spotify |
+| 🎤 Podcasts | Spotify |
+| 🔐 Gestor de contrasenyes | Vaultwarden |
 
-- 📨 Client de mail: Mail d'iOS
-- 📮 Servidor de mail: [Nubulus network](https://www.nubulusnetwork.com/) i Gmail
-- 🗒️ Notes i markdown: Notes d'iOS i Obsidian
-- ✅ To-do: Tweek.so
-- 📷 Càmera: càmera d'iOS i [65x24](https://65x24.net/)
-- 🏞️ Gestió de fotos: Immich
-- 📅 Calendari: Calendari de Google
-- ☁️ Cloud: Nextcloud auto allotjat
-- 📰 RSS: Miniflux auto allotjat
-- 👬 Contates: contactes iOS
-- 🧭 Navegador: Chrome
-- 💬 Chat: Telegram i Whatasapp
-- 🔖 Bookmarks: Google
-- 📑 Read-it-later: n/a
-- 📜 Word Processing: Nextcloud
-- 📈 Fulls de càlcul: Nextcloud
-- 📊 Presentacions: n/a
-- 🛒 Llista de la compra: paper i llapis
-- 🍴 Planificació d'àpats: n/a
-- 💰 Planificació de dinerets: Actual budget
-- 📰 Notícies: elnacional.cat i ara.cat
-- 🎵 Música: Spotify
-- 🎤 Podcasts: Spotify
-- 🔐 Gestor de contrasenyes: Bitwarden auto-allotjat
+Hi ha alguns canvis que voldria fer:
+
+- M'agradaria deixar de fer servir Google per al calendari, però el fet de compartir esdeveniments amb la meva parella, fa que sigui una mica més complicat.
+- Nextcloud va bé quan va bé, però de tant en tant l'actualitzo i comencen els problemes. Per al que jo necessito, voldria provar alguna alternativa com [Seafile](https://www.seafile.com/) o [OxiCloud](https://github.com/DioCrafts/OxiCloud).
+
+Si vols veure moltes més "default apps" d'altres persones, et recomano visitar el recopilatori del [Robb Knight](https://defaults.rknight.me/), que és com vaig jo conèixer aquest trend.

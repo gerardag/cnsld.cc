@@ -2,7 +2,7 @@
   --font-size: 16px;
   --spacing: 0.25rem;
   --color: oklch(14.38% 0.007 256.88);
-  --oposite-color: oklch(99.4% 0 0);
+  --opposite-color: oklch(99.4% 0 0);
   --soft-color: oklch(91.87% 0.003 264.54);
 }
 
@@ -31,7 +31,7 @@ html {
 }
 
 body {
-  background-color: var(--oposite-accent-color);
+  background-color: #fff;
   color: var(--color);
   font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 300;
@@ -156,7 +156,7 @@ article {
   h1 {
     font-size: 3rem;
     letter-spacing: -0.05em;
-    line-height: var(--tw-leading, 1);
+    line-height: 1;
     margin-bottom: calc(var(--spacing) * 8);
   }
 
@@ -209,7 +209,7 @@ article {
 
     time {
       font-size: 0.875rem;
-      line-height: var(--tw-leading, 0,14);
+      line-height: 1.4;
     }
   }
 
@@ -245,12 +245,13 @@ ul ul {
 }
 
 table {
-  border: 1px solid var(--color);
+  width: 100%;
   border-collapse: collapse;
   margin-block: 4rem;
+  text-align: left;
 
   thead {
-    background-color: var(--soft-color);
+    border-bottom: 1px dashed var(--color);
 
     th {
       font-weight: 700;
@@ -259,10 +260,7 @@ table {
 
   th,
   td {
-    border-bottom: 1px solid var(--color);
-    border-right: 1px solid var(--color);
     padding-block: calc(var(--spacing) * 2);
-    padding-inline: calc(var(--spacing) * 2);
   }
 }
 

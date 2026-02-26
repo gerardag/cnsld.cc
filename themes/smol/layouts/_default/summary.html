@@ -1,13 +1,13 @@
 <article class="summary">
+	<small class="time">
+		{{ partial "time" . }}
+	</small>
 	<header>
 		<h2>
 			<a href="{{ .Permalink }}">{{ .Title }}</a>
 		</h2>
 	</header>
 	<p>{{ .Description }}</p>
-	<footer class="time">
-		{{ partial "time" . }}
-	</footer>
 	<!-- {{ range .Params.tags }}
 	<a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
 	{{ end }} -->
