@@ -5,29 +5,25 @@ tags:
   - slashes
 ---
 
-Basada en la pàgina de <a href="https://nownownow.com/about" target="_blank">now</a>.
-
-
 ## Què faig?
 
-Front-end gestionant CDN.
+Moltes coses, la meva feina és desenvolupador front-end. I al meu temps lliure m'agrada fer de tot: mobles per casa, domòtica, cuinar.
 
 ## Llibres
 
-Acabar <a href="https://flowpress.media/producte/mata-nazis/?lang=ca" target="_blank">Mata nazis</a>.
-
-Començant la saga de Blackwater. Primer llibre, La Riada.
+Cap en curs.
 
 ## Mirant
 
-Moltes series al mateix temps:
+- The Pitt
 
-- Your Friends & Neighbors
-- The Studio
-- Andor
-
-Pots fer una ullada a les pel·lícules a <a href="https://letterboxd.com/gerardag/" target="_blank">Letterboxd</a>.
+Pots fer una ullada a les pel·lícules que miro al meu [Letterboxd](https://letterboxd.com/gerardag/).
 
 ## Projectes
 
-- Organitzant els panells d'energia i clima de Home Assistant.
+- Fent un petit projecte per determinar si una pel·lícula/sèrie [fa por](https://fapor.cnsld.cc) o no.
+- Fent una web on expose les dades de la meva [estació meteorològica](https://meteo.cnsld.cc).
+- Optimitzant els panells d'energia i clima de Home Assistant.
+
+
+Això és una pàgina [/now](https://nownownow.com/about) inspirada amb el projecte del Derek Sivers. Si vols mirar-ne d'altres, en pots trobar moltes més a la web del projecte: [nownownow.com](https://nownownow.com/).

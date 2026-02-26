@@ -132,10 +132,13 @@ article {
     margin-block-start: calc(var(--spacing) * 2);
   }
 
-  time {
-    font-size: 1rem;
+  .time {
     color: #6a7282;
-    line-height: 30px;
+    font-size: 1rem;
+
+    time {
+      line-height: 30px;
+    }
   }
 }
 
@@ -157,7 +160,7 @@ article {
     font-size: 3rem;
     letter-spacing: -0.05em;
     line-height: 1;
-    margin-bottom: calc(var(--spacing) * 8);
+    margin-top: calc(var(--spacing) * 8);
   }
 
   h2 {
@@ -205,10 +208,10 @@ article {
   }
 
   .time {
+    font-size: 0.875rem;
     margin-bottom: calc(var(--spacing) * 3);
 
     time {
-      font-size: 0.875rem;
       line-height: 1.4;
     }
   }
@@ -284,4 +287,13 @@ table {
 
 .text-centered {
   text-align: center;
+}
+
+.lastmod {
+  background-color: oklab(0.5527 0.18431 0.0636788 / 0.05);
+  border-radius: 8px;
+  color: rgb(203, 42, 66);
+  padding: 0.25rem 0.5rem;
+  margin-left: 0.5rem;
+  font-size: 0.875rem;
 }

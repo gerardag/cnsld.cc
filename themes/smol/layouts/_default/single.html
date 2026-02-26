@@ -18,6 +18,9 @@
 						{{ if .Date }}
 							{{ partial "time" .}}
 						{{ end }}
+						{{ if and .Lastmod (ne .Lastmod .Date) }}
+							<span class="lastmod">Actualitzat el <time datetime="{{ .Lastmod.Format "2006-01-02" }}">{{ partial "functions/localize-date" (dict "date" .Lastmod "format" site.Params.formats.date.long) }}.</time></span>
+						{{ end }}
 					</p>
 					<h1>{{ .Title }}</h1>
 					{{ if eq $type "blog"}}
