@@ -10,7 +10,7 @@ Això és una pàgina de /uses inspirada amb el projecte del Wes Bos. Si li done
 
 ## Tech
 - Macbook Pro 2021, M1 Pro, 32GB RAM, 1TB SSD
-- NEO 65, verd, switches Gateron Oil King 2.0, estabilitzadors Durock V3 i Glorius keycaps
+- NEO 65, verd, switches Gateron Oil King 2.0, estabilitzadors Durock V3 i Glorious keycaps
 - Ratolí Logitech G Pro Wireless
 - Monitor LG 27UL500-W 4K
 - iPhone 15 PRO

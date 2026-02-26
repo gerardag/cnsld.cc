@@ -14,12 +14,12 @@ Aquí hi ha les aplicaciones que faig servir de cada categoria:
 | 📮 Servidor de mail | [Nubulus network](https://www.nubulusnetwork.com/) i Gmail |
 | 🗒️ Notes i markdown | Notes d'iOS ~~i Obsidian~~ |
 | ✅ To-do | [Tweek.so](https://tweek.so/) |
-| 📷 Càmera | càmera d'iOS i [65x24](https://65x24.net/) |
+| 📷 Càmera | Càmera d'iOS i [65x24](https://65x24.net/) |
 | 🏞️ Gestió de fotos | [Immich](https://immich.app/) |
 | 📅 Calendari | Calendari de Google |
 | ☁️ Cloud | Nextcloud |
 | 📰 RSS | ~~Miniflux~~ |
-| 👬 Contates | contactes iOS |
+| 👬 Contates | Contactes d'iOS |
 | 🧭 Navegador | Chrome |
 | 💬 Chat | Telegram i Whatasapp |
 | 🔖 Bookmarks | Google |
@@ -34,7 +34,7 @@ Aquí hi ha les aplicaciones que faig servir de cada categoria:
 | 📰 Notícies | [elnacional.cat](https://elnacional.cat) i [ara.cat](https://ara.cat)  |
 | 🎵 Música | Spotify |
 | 🎤 Podcasts | Spotify |
-| 🔐 Gestor de contrasenyes | Vaultwarden |
+| 🔐 Gestor de contrasenyes | [Vaultwarden](https://github.com/dani-garcia/vaultwarden) |
 
 Hi ha alguns canvis que voldria fer:
 
