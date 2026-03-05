@@ -4,12 +4,18 @@
   --color: oklch(14.38% 0.007 256.88);
   --opposite-color: oklch(99.4% 0 0);
   --soft-color: oklch(91.87% 0.003 264.54);
+  --muted-color: #6a7282;
+  --background-color: #fff;
+  --selection-color: #fff2a8;
 }
 
 html.dark {
   --color: oklch(82% 0.007 256.88);
   --opposite-color: oklch(20% 0.005 256.88);
   --soft-color: oklch(30% 0.005 256.88);
+  --muted-color: oklch(70% 0.004 264);
+  --background-color: oklch(20% 0.005 256.88);
+  --selection-color: oklch(45% 0.15 65);
 }
 
 @media (min-width: 1440px) {
@@ -25,19 +31,11 @@ html.dark {
 }
 
 ::-moz-selection { /* Code for Firefox */
-  background: #fff2a8;
+  background: var(--selection-color);
 }
 
 ::selection {
-  background: #fff2a8;
-}
-
-html.dark ::-moz-selection {
-  background: oklch(45% 0.15 65);
-}
-
-html.dark ::selection {
-  background: oklch(45% 0.15 65);
+  background: var(--selection-color);
 }
 
 html {
@@ -45,7 +43,7 @@ html {
 }
 
 body {
-  background-color: #fff;
+  background-color: var(--background-color);
   color: var(--color);
   font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 300;
@@ -53,13 +51,6 @@ body {
   padding: 0;
 }
 
-html.dark body {
-  background-color: oklch(20% 0.005 256.88);
-}
-
-html.dark .site-header {
-  background-color: oklch(20% 0.005 256.88);
-}
 
 .container {
   display: grid;
@@ -69,7 +60,7 @@ html.dark .site-header {
 }
 
 .site-header {
-  background-color: #fff;
+  background-color: var(--background-color);
   border-bottom: 1px solid var(--color);
   display: flex;
   justify-content: center;
@@ -181,7 +172,7 @@ article {
   }
 
   .time {
-    color: #6a7282;
+    color: var(--muted-color);
     font-size: 1rem;
 
     time {
@@ -257,7 +248,7 @@ article {
       border-left: 3px solid var(--color);
       margin-inline: 0;
       padding-inline: calc(var(--spacing) * 6);
-      color: #6a7282;
+      color: var(--muted-color);
       font-style: italic;
     }
 
@@ -354,15 +345,6 @@ table {
   font-size: 0.875rem;
 }
 
-html.dark .summary .time,
-html.dark .single-post .time,
-html.dark .page .time {
-  color: oklch(70% 0.004 264);
-}
-
-html.dark .post-content blockquote {
-  color: oklch(70% 0.004 264);
-}
 
 html.dark .lastmod {
   background-color: oklab(0.22 0.08 0.02 / 0.3);
@@ -394,15 +376,12 @@ html.dark .lastmod {
   font-size: 1rem;
 
   .archive-date {
-    color: #6a7282;
+    color: var(--muted-color);
     font-variant-numeric: tabular-nums;
     flex-shrink: 0;
   }
 }
 
-html.dark .archive-item .archive-date {
-  color: oklch(70% 0.004 264);
-}
 
 .archive-main {
   max-width: 48rem;
