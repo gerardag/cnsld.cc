@@ -3,6 +3,7 @@ title: Nova rentadora
 Description: Va de Watts i de diners.
 date: 2025-06-04T00:00:00Z
 draft: false
+tags: ["consum", "llar"]
 ---
 Hem comprat una rentadora Samsung amb IA, 1000 programes, gestió de consums, Smartthings... perquè la vella saltava mentre centrifugava.
 

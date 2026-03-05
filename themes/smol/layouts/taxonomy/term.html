@@ -1,0 +1,12 @@
+{{ define "main" }}
+	<main class="site-main">
+		<section class="main-section">
+			<header>
+				<h1>#{{ .Title }}</h1>
+			</header>
+			{{ range where .Pages "Type" "blog" }}
+				{{ .Render "summary" }}
+			{{ end }}
+		</section>
+	</main>
+{{ end }}

@@ -3,6 +3,7 @@ title: Estratègia de backups
 Description: Com gestiono les còpies de seguretat
 date: 2025-05-27T00:00:00Z
 draft: false
+tags: ["homelab", "backups"]
 ---
 
 El gran tema.

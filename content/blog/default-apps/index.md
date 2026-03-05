@@ -4,6 +4,7 @@ description: Les apps que utilitzo per al meu dia a dia
 date: 2025-05-21T10:00:00Z
 lastmod: 2026-02-26T10:00:00Z
 comments: false
+tags: ["apps", "eines"]
 ---
 
 Aquí hi ha les aplicaciones que faig servir de cada categoria:

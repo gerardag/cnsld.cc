@@ -3,6 +3,7 @@ title: Nova nevera
 Description: Va de Watts i de diners.
 date: 2025-06-07T00:00:00Z
 draft: false
+tags: ["consum", "llar"]
 ---
 Aquest passat més de Maig ha estat un mes terrible: primer la rentadora i després la nevera. La part bona és que ara tenim uns electrodomèstics que gasten molt menys.
 

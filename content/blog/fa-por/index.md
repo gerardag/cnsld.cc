@@ -2,6 +2,7 @@
 title: Fa por?
 Description: Per saber si hi haurà espants.
 date: 2026-02-25T10:00:00Z
+tags: ["projectes", "dev"]
 ---
 
 No m'han agradat, no m'agraden i no crec que en un futur m'agradin les pel·lícules o les sèries de por.

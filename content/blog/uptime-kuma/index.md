@@ -2,6 +2,7 @@
 title: Uptime kuma
 Description: Per saber quan alguna cosa no rutlla bé.
 date: 2026-03-05T10:00:00Z
+tags: ["homelab", "eines"]
 ---
 He tornat a desplegar [Uptime Kuma](https://uptimekuma.org/) per als side-projects que tinc i crec que ara si que li treuré profit.
 

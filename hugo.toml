@@ -25,6 +25,9 @@ target = 'static'
 source = 'images'
 target = 'static/images'
 
+[taxonomies]
+  tag = "tags"
+
 [pagination]
   disableAliases = false
   pagerSize = 100
@@ -36,9 +39,14 @@ url = "/"
 weight = 1
 
 [[menu.main]]
+name = "Arxiu"
+url = "/blog"
+weight = 2
+
+[[menu.main]]
 name = "Now"
 url = "/slash/now"
-weight = 2
+weight = 3
 
 [languages.ca]
   weight = 1
