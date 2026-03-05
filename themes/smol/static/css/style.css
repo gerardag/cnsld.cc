@@ -6,6 +6,14 @@
   --soft-color: oklch(91.87% 0.003 264.54);
 }
 
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color: oklch(92% 0.007 256.88);
+    --opposite-color: oklch(12% 0 0);
+    --soft-color: oklch(25% 0.003 264.54);
+  }
+}
+
 @media (min-width: 1440px) {
   :root {
     --font-size: 20px;
@@ -26,6 +34,16 @@
   background: #fff2a8;
 }
 
+@media (prefers-color-scheme: dark) {
+  ::-moz-selection {
+    background: oklch(45% 0.15 65);
+  }
+
+  ::selection {
+    background: oklch(45% 0.15 65);
+  }
+}
+
 html {
   font-size: var(--font-size);
 }
@@ -37,6 +55,12 @@ body {
   font-weight: 300;
   margin: 0;
   padding: 0;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: oklch(12% 0 0);
+  }
 }
 
 .container {
@@ -304,4 +328,21 @@ table {
   padding: 0.25rem 0.5rem;
   margin-left: 0.5rem;
   font-size: 0.875rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  .summary .time,
+  .single-post .time,
+  .page .time {
+    color: oklch(70% 0.004 264);
+  }
+
+  .post-content blockquote {
+    color: oklch(70% 0.004 264);
+  }
+
+  .lastmod {
+    background-color: oklab(0.22 0.08 0.02 / 0.3);
+    color: oklch(75% 0.15 30);
+  }
 }
