@@ -6,12 +6,10 @@
   --soft-color: oklch(91.87% 0.003 264.54);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --color: oklch(92% 0.007 256.88);
-    --opposite-color: oklch(12% 0 0);
-    --soft-color: oklch(25% 0.003 264.54);
-  }
+html.dark {
+  --color: oklch(82% 0.007 256.88);
+  --opposite-color: oklch(20% 0.005 256.88);
+  --soft-color: oklch(30% 0.005 256.88);
 }
 
 @media (min-width: 1440px) {
@@ -34,14 +32,12 @@
   background: #fff2a8;
 }
 
-@media (prefers-color-scheme: dark) {
-  ::-moz-selection {
-    background: oklch(45% 0.15 65);
-  }
+html.dark ::-moz-selection {
+  background: oklch(45% 0.15 65);
+}
 
-  ::selection {
-    background: oklch(45% 0.15 65);
-  }
+html.dark ::selection {
+  background: oklch(45% 0.15 65);
 }
 
 html {
@@ -57,10 +53,12 @@ body {
   padding: 0;
 }
 
-@media (prefers-color-scheme: dark) {
-  body {
-    background-color: oklch(12% 0 0);
-  }
+html.dark body {
+  background-color: oklch(20% 0.005 256.88);
+}
+
+html.dark .site-header {
+  background-color: oklch(20% 0.005 256.88);
 }
 
 .container {
@@ -71,11 +69,13 @@ body {
 }
 
 .site-header {
+  background-color: #fff;
   border-bottom: 1px solid var(--color);
   display: flex;
   justify-content: center;
   margin-inline: auto;
   position: sticky;
+  top: 0;
   width: 100%;
 
   &  > div {
@@ -93,6 +93,29 @@ body {
   align-items: center;
   display: flex;
   gap: 2rem;
+}
+
+
+#theme-toggle {
+  background: none;
+  border: none;
+  color: var(--color);
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+#theme-toggle .icon-sun {
+  display: none;
+}
+
+html.dark #theme-toggle .icon-sun {
+  display: block;
+}
+
+html.dark #theme-toggle .icon-moon {
+  display: none;
 }
 
 main {
@@ -330,19 +353,17 @@ table {
   font-size: 0.875rem;
 }
 
-@media (prefers-color-scheme: dark) {
-  .summary .time,
-  .single-post .time,
-  .page .time {
-    color: oklch(70% 0.004 264);
-  }
+html.dark .summary .time,
+html.dark .single-post .time,
+html.dark .page .time {
+  color: oklch(70% 0.004 264);
+}
 
-  .post-content blockquote {
-    color: oklch(70% 0.004 264);
-  }
+html.dark .post-content blockquote {
+  color: oklch(70% 0.004 264);
+}
 
-  .lastmod {
-    background-color: oklab(0.22 0.08 0.02 / 0.3);
-    color: oklch(75% 0.15 30);
-  }
+html.dark .lastmod {
+  background-color: oklab(0.22 0.08 0.02 / 0.3);
+  color: oklch(75% 0.15 30);
 }
