@@ -6,6 +6,9 @@ theme = 'smol'
 [params]
   description = "Un blog personal on comparteixo les coses que m'agraden i que em venen de gust."
 
+[services.rss]
+  limit = 20
+
 
 [caches]
   [caches.images]
