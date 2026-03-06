@@ -6,6 +6,7 @@
 	<title>{{ .Title }}</title>
 	{{ partial "favicon" . }}
 	{{ partial "social" . }}
+	{{ partial "json-ld" . }}
 	{{ if .Description }}
 		<meta name="description" content="{{ .Description }}">
 	{{ else if .IsPage }}
