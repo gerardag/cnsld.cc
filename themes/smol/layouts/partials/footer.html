@@ -1,5 +1,9 @@
 <footer class="site-footer">
 	<div>
-		<p>&copy; {{ now.Year }} — <a href="{{ .Site.BaseURL }}">cnsld.cc</a> · <a href="/index.xml">RSS</a></p>
+		<div class="footer-row">
+			<span>&copy; {{ now.Year }} — <a href="{{ .Site.BaseURL }}">cnsld.cc</a></span>
+			<a class="footer-rss" href="/index.xml" target="_blank" rel="noopener">RSS</a>
+			<span></span>
+		</div>
 	</div>
 </footer>
