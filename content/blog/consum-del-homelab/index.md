@@ -18,9 +18,7 @@ Tot està connectat al SAI i aquest a un endoll, on hi tinc instal·lat un Shell
 
 El Shelly al mateix temps està vinculat a Home Assistant, així que per defecte ja tinc històric i gràfiques del consum sense haver de fer res. A més també tinc disponibles els Watts de manera instanània.
 
-<figure>
-  <img src="shelly-sensors.jpg" alt="Sensors disponibles" width="350" />
-</figure>
+![Sensors disponibles](shelly-sensors.jpg)
 
 ## I els diners què?
 

@@ -1,4 +1,2 @@
 {{ $faviconSvg := resources.Get "images/cnsld.svg" }}
-{{ $faviconIco := resources.Get "/favicon.ico" }}
 <link rel="icon" type="image/svg+xml" href="{{ $faviconSvg.RelPermalink }}" />
-<link rel="icon" type="image/x-icon" href="{{ $faviconIco.RelPermalink }}" />

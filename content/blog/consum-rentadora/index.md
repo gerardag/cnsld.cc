@@ -20,7 +20,7 @@ El soroll ha baixat una barbaritat. Va tancada per tot arreu i al ser nova, fa q
 Els pics de potència són molt més petits (d'uns 2000 a uns 200W) i fent rentandes semblants: 30-40º i entre 1000 i 1200 rpm.
 
 
-<img src="watts-rentadora.webp" alt="Sensors disponibles" style="max-width: 100%" />
+![Sensors disponibles](watts-rentadora.webp)
 
 El consum tot i que està "engegada" y tenir **consum residual de 0.04kWh/dia** (Wifi i tonteries), quedaria així en comparació amb la vella en el **consum mensual** i amb un cost de 0.29€/kWh:
 

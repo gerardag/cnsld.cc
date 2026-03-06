@@ -1,11 +1,20 @@
-{{ if .Title }}
-<figure>
-  <img src="{{ .Destination | safeURL }}" alt="{{ .Text }}" />
-  <figcaption>{{ .Title }}</figcaption>
-</figure>
+{{ $img := .Page.Resources.GetMatch .Destination }}
+{{ if $img }}
+  {{ $webp := $img.Process "webp" }}
+  <figure>
+    <a href="{{ $img.RelPermalink }}" target="_blank" rel="noopener">
+      <picture>
+        <source srcset="{{ $webp.RelPermalink }}" type="image/webp">
+        <img src="{{ $img.RelPermalink }}" alt="{{ .Text }}"
+             width="{{ $img.Width }}" height="{{ $img.Height }}"
+             loading="lazy" decoding="async" />
+      </picture>
+    </a>
+    {{ with $.Title }}<figcaption>{{ . }}</figcaption>{{ end }}
+  </figure>
 {{ else }}
-<figure>
-  <img src="{{ .Destination | safeURL }}" alt="{{ .Text }}" />
-</figure>
+  <figure>
+    <img src="{{ .Destination | safeURL }}" alt="{{ .Text }}" loading="lazy" decoding="async" />
+    {{ with .Title }}<figcaption>{{ . }}</figcaption>{{ end }}
+  </figure>
 {{ end }}
-
