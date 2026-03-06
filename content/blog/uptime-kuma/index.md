@@ -8,13 +8,13 @@ He tornat a desplegar [Uptime Kuma](https://uptimekuma.org/) per als side-projec
 
 Ja el tenia desplegat fa temps però per coses locals (principalment per als routers SMLIGHT Zigbee que tinc a casa perquè em donaven algun problema) però no li vaig acabar de treure'n el profit.
 
-Ara però tinc side projects i l'he recuperat, monitoritzant el blog, [fapor](https://fapor.cnsld.cc) i [meteo](https://meteo.cnsld.cc) (i la seva api) amb alertes configurades que m'arriben a un canale de Telegram que ja el tinc per altres avisos del homelab.
+Ara però tinc side projects i l'he recuperat, monitoritzant el blog, [fapor](https://fapor.cnsld.cc) i [meteo](https://meteo.cnsld.cc) (i la seva api) amb alertes configurades que m'arriben a un canal de Telegram que ja el tinc per altres avisos del homelab.
 
 Perquè m'agrada: 
 
-- És **lleuger** per al meu setup i molt **fàcil de configurar i utilitzar**.
-- Poder tenir **alertes per Telegram** d'una manera molt fàcil.
-- I m'agrada poder tenir un **històric de pings i d'events** que han passat.
+- És **lleuger** i molt **fàcil de configurar i utilitzar**.
+- Poder tenir **alertes de Telegram** d'una manera molt fàcil.
+- Poder tenir un **històric de pings i d'events** que han passat.
 
 Si busques alguna cosa lleugera i que sigui molt fàcil d'utitlitzar endavant amb Uptime Kuma.
 
