@@ -1,4 +1,4 @@
-baseURL = '/'
+baseURL = 'https://cnsld.cc/'
 languageCode = 'ca_ES'
 title = 'Una mica de tot - cnsld.cc'
 theme = 'smol'
