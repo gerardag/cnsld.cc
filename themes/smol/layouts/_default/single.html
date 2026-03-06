@@ -44,6 +44,20 @@
 
 					{{ .Content }}
 				</div>
+				{{ if eq $type "blog" }}
+				<nav class="post-nav">
+					<div class="post-nav-prev">
+						{{ with .Prev }}
+							<a href="{{ .RelPermalink }}">← {{ .Title }}</a>
+						{{ end }}
+					</div>
+					<div class="post-nav-next">
+						{{ with .Next }}
+							<a href="{{ .RelPermalink }}">{{ .Title }} →</a>
+						{{ end }}
+					</div>
+				</nav>
+				{{ end }}
 			</article>
 		</section>
 	</main>

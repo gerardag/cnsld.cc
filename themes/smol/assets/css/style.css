@@ -300,6 +300,18 @@ article {
   }
 }
 
+.post-nav {
+  display: flex;
+  justify-content: space-between;
+  gap: calc(var(--spacing) * 4);
+  margin-top: calc(var(--spacing) * 8);
+  padding-top: calc(var(--spacing) * 4);
+  border-top: 1px solid var(--soft-color);
+
+  .post-nav-prev { flex: 1; }
+  .post-nav-next { flex: 1; text-align: right; }
+}
+
 .site-header > div,
 .site-footer > div {
   padding-inline: calc(.25rem * 4);
