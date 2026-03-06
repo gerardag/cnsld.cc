@@ -1,6 +1,7 @@
 ---
 title: /now
 description: Un breu resum del que tinc sobre la taula
+date: 2025-05-10T00:00:00Z
 tags:
   - slashes
 ---
