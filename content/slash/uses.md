@@ -1,6 +1,7 @@
 ---
 title: /uses
 description: Què utilitzo al meu dia a dia
+date: 2025-01-01T10:00:00Z
 tags:
   - slashes
 draft: false
