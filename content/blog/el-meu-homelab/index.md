@@ -1,6 +1,6 @@
 ---
 title: 'El meu homelab'
-Description: 'Els ferros.'
+description: 'Els ferros.'
 date: 2025-05-10T10:00:00Z
 draft: false
 tags: ["homelab"]

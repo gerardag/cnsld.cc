@@ -1,6 +1,6 @@
 ---
 title: Fa por?
-Description: Per saber si hi haurà espants.
+description: Per saber si hi haurà espants.
 date: 2026-02-25T10:00:00Z
 tags: ["projectes", "dev"]
 ---

@@ -25,7 +25,7 @@ Google Chrome és el meu navegador principal. He provat a canviar diverses vegad
 Cada vegada que surt un editor nou m'agrada provar-lo, em diverteix fer-ho i veure què ofereix i què no. Però VS Code m'ofereix tot el que necessito i em va molt bé, tant per casa com per la feina.
 
 - Visual Studio Code
-- El tema que utlitzo és el [Moonlight II](https://www.vscolors.com/themes/fe612a60-7107-41d4-a01e-4c3bebe3ffd8-97358241).
+- El tema que utilitzo és el [Moonlight II](https://www.vscolors.com/themes/fe612a60-7107-41d4-a01e-4c3bebe3ffd8-97358241).
 - Ja fa molt de temps que faig servir la mateixa font, la [Dank Mono](https://philpl.gumroad.com/l/dank-mono).
 
 ## Development

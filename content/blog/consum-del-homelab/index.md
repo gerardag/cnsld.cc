@@ -1,6 +1,6 @@
 ---
 title: Controlar el consum del homelab
-Description: Va de Watts i de diners.
+description: Va de Watts i de diners.
 date: 2025-05-20T10:00:00Z
 draft: false
 tags: ["homelab", "consum"]
@@ -18,7 +18,7 @@ Tot està connectat al SAI i aquest a un endoll, on hi tinc instal·lat un Shell
 
 El Shelly al mateix temps està vinculat a Home Assistant, així que per defecte ja tinc històric i gràfiques del consum sense haver de fer res. A més també tinc disponibles els Watts de manera instanània.
 
-![Sensors disponibles](shelly-sensors.jpg)
+![Sensors disponibles](shelly-sensors.webp)
 
 ## I els diners què?
 
@@ -36,7 +36,7 @@ El kWh el trec en base del total facturat, que inclou la potència, impostos, en
 
 A part de la part econòmica, a la gràfica es pot veure com a la nit, entre les 3 i les 4 hi ha pics, que corresponen a les tasques de backup que es fan de màquines virtuals, documents i fotos i altres tasques que es fan durant la nit.
 
-[![Gràfica de consum](consum-servidors.jpg)](consum-servidors.jpg)
+[![Gràfica de consum](consum-servidors.webp)](consum-servidors.webp)
 
 Gràcies a això m'és més fàcil prendre consciència del consum i poder optimitzar i també dimensionar millor el sistema. A més, al tenir un SAI connectat puc saber de manera molt més precisa quin serà el consum que haurà d'aguantar el SAI en cas de talls de llum.
 

@@ -1,6 +1,6 @@
 ---
 title: Nova rentadora
-Description: Va de Watts i de diners.
+description: Va de Watts i de diners.
 date: 2025-06-04T00:00:00Z
 draft: false
 tags: ["consum", "llar"]
@@ -22,7 +22,7 @@ Els pics de potència són molt més petits (d'uns 2000 a uns 200W) i fent renta
 
 ![Sensors disponibles](watts-rentadora.webp)
 
-El consum tot i que està "engegada" y tenir **consum residual de 0.04kWh/dia** (Wifi i tonteries), quedaria així en comparació amb la vella en el **consum mensual** i amb un cost de 0.29€/kWh:
+El consum tot i que està "engegada" i tenir **consum residual de 0.04kWh/dia** (Wifi i tonteries), quedaria així en comparació amb la vella en el **consum mensual** i amb un cost de 0.29€/kWh:
 
 | Versió | Consum | Cost
 | :-------- | :------- | :------- |
