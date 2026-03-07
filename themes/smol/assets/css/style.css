@@ -30,9 +30,6 @@ html.dark {
   box-sizing: border-box;
 }
 
-::-moz-selection { /* Code for Firefox */
-  background: var(--selection-color);
-}
 
 ::selection {
   background: var(--selection-color);
