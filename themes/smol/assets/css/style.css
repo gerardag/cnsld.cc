@@ -42,6 +42,20 @@ html {
   font-size: var(--font-size);
 }
 
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: 0;
+  padding: 0.5rem 1rem;
+  background: var(--color);
+  color: var(--background-color);
+  z-index: 100;
+
+  &:focus {
+    top: 0;
+  }
+}
+
 body {
   background-color: var(--background-color);
   color: var(--color);

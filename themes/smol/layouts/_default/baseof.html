@@ -35,9 +35,12 @@
 	{{ end }}
 </head>
 <body>
+	<a class="skip-link" href="#main-content">Salta al contingut</a>
 	<div class="container">
 		{{ partial "header" . }}
+		<div id="main-content">
 		{{ block "main" . }}{{ end }}
+		</div>
 		{{ partial "footer" . }}
 	</div>
 <script>
