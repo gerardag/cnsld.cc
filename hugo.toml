@@ -17,6 +17,10 @@ theme = 'smol'
 [markup.goldmark.renderer]
 unsafe= true
 
+[markup.highlight]
+noClasses = false
+
+
 [permalinks]
 blog = "/blog/:year/:title/"
 
