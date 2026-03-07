@@ -36,7 +36,7 @@ El kWh el trec en base del total facturat, que inclou la potència, impostos, en
 
 A part de la part econòmica, a la gràfica es pot veure com a la nit, entre les 3 i les 4 hi ha pics, que corresponen a les tasques de backup que es fan de màquines virtuals, documents i fotos i altres tasques que es fan durant la nit.
 
-[![Gràfica de consum](consum-servidors.webp)](consum-servidors.webp)
+![Gràfica de consum](consum-servidors.webp)
 
 Gràcies a això m'és més fàcil prendre consciència del consum i poder optimitzar i també dimensionar millor el sistema. A més, al tenir un SAI connectat puc saber de manera molt més precisa quin serà el consum que haurà d'aguantar el SAI en cas de talls de llum.
 
