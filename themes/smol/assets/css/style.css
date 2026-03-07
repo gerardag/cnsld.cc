@@ -4,7 +4,7 @@
   --color: oklch(14.38% 0.007 256.88);
   --opposite-color: oklch(99.4% 0 0);
   --soft-color: oklch(91.87% 0.003 264.54);
-  --muted-color: #6a7282;
+  --muted-color: oklch(52% 0.015 264);
   --background-color: #fff;
   --selection-color: #fff2a8;
 }
@@ -123,6 +123,16 @@ main {
 a {
   color: var(--color);
   text-decoration: none;
+
+  &:hover {
+    color: #2563eb;
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--color);
+    outline-offset: 2px;
+    border-radius: 2px;
+  }
 }
 
 
@@ -179,7 +189,7 @@ article {
   }
 }
 
-.single-post, .page, .archive-main {
+.single-post, .the-ones-post, .page, .archive-main {
 
   section {
     padding-block: calc(var(--spacing) * 8);
@@ -228,6 +238,7 @@ article {
   margin-block-start: calc(var(--spacing) * 8);
   padding-block: calc(var(--spacing) * 8);
   padding-inline: calc(var(--spacing) * 8);
+  text-align: left;
 }
 
 .post-content h2 {
@@ -310,19 +321,19 @@ article {
 .chroma .line { display:flex; }
 
 /* Chroma syntax highlighting — mode fosc */
-.dark .chroma { background-color: var(--soft-color); }
-.dark .chroma .nt { color:#f92672 }
-.dark .chroma .na { color:#a6e22e }
-.dark .chroma .nf,.dark .chroma .nc,.dark .chroma .nd,.dark .chroma .nx { color:#a6e22e }
-.dark .chroma .s,.dark .chroma .s1,.dark .chroma .s2,.dark .chroma .sb,.dark .chroma .sc,.dark .chroma .sd,.dark .chroma .sh,.dark .chroma .si,.dark .chroma .sx,.dark .chroma .sr,.dark .chroma .ss,.dark .chroma .sa,.dark .chroma .dl,.dark .chroma .ld { color:#e6db74 }
-.dark .chroma .m,.dark .chroma .mb,.dark .chroma .mf,.dark .chroma .mh,.dark .chroma .mi,.dark .chroma .il,.dark .chroma .mo { color:#ae81ff }
-.dark .chroma .l { color:#ae81ff }
-.dark .chroma .k,.dark .chroma .kc,.dark .chroma .kd,.dark .chroma .kp,.dark .chroma .kr,.dark .chroma .kt { color:#66d9ef }
-.dark .chroma .kn { color:#f92672 }
-.dark .chroma .o,.dark .chroma .ow { color:#f92672 }
-.dark .chroma .c,.dark .chroma .ch,.dark .chroma .cm,.dark .chroma .c1,.dark .chroma .cs,.dark .chroma .cp,.dark .chroma .cpf { color:#75715e }
-.dark .chroma .ge { font-style:italic }
-.dark .chroma .gs { font-weight:bold }
+html.dark .chroma { background-color: var(--soft-color); }
+html.dark .chroma .nt { color:#f92672 }
+html.dark .chroma .na { color:#a6e22e }
+html.dark .chroma .nf,html.dark .chroma .nc,html.dark .chroma .nd,html.dark .chroma .nx { color:#a6e22e }
+html.dark .chroma .s,html.dark .chroma .s1,html.dark .chroma .s2,html.dark .chroma .sb,html.dark .chroma .sc,html.dark .chroma .sd,html.dark .chroma .sh,html.dark .chroma .si,html.dark .chroma .sx,html.dark .chroma .sr,html.dark .chroma .ss,html.dark .chroma .sa,html.dark .chroma .dl,html.dark .chroma .ld { color:#e6db74 }
+html.dark .chroma .m,html.dark .chroma .mb,html.dark .chroma .mf,html.dark .chroma .mh,html.dark .chroma .mi,html.dark .chroma .il,html.dark .chroma .mo { color:#ae81ff }
+html.dark .chroma .l { color:#ae81ff }
+html.dark .chroma .k,html.dark .chroma .kc,html.dark .chroma .kd,html.dark .chroma .kp,html.dark .chroma .kr,html.dark .chroma .kt { color:#66d9ef }
+html.dark .chroma .kn { color:#f92672 }
+html.dark .chroma .o,html.dark .chroma .ow { color:#f92672 }
+html.dark .chroma .c,html.dark .chroma .ch,html.dark .chroma .cm,html.dark .chroma .c1,html.dark .chroma .cs,html.dark .chroma .cp,html.dark .chroma .cpf { color:#75715e }
+html.dark .chroma .ge { font-style:italic }
+html.dark .chroma .gs { font-weight:bold }
 
 .post-content code {
   background-color: var(--soft-color);
@@ -427,14 +438,10 @@ table {
   text-align: center;
 }
 
-.post-content {
-  text-align: left;
-}
-
 .lastmod {
-  background-color: oklab(0.5527 0.18431 0.0636788 / 0.05);
+  background-color: oklch(55% 0.15 25 / 0.05);
   border-radius: 8px;
-  color: rgb(203, 42, 66);
+  color: oklch(50% 0.2 25);
   padding: 0.25rem 0.5rem;
   margin-left: 0.5rem;
   font-size: 0.875rem;
@@ -442,8 +449,8 @@ table {
 
 
 html.dark .lastmod {
-  background-color: oklab(0.22 0.08 0.02 / 0.3);
-  color: oklch(75% 0.15 30);
+  background-color: oklch(25% 0.08 25 / 0.3);
+  color: oklch(75% 0.15 25);
 }
 
 .archive-year {
@@ -478,7 +485,7 @@ html.dark .lastmod {
 }
 
 
-.single-post, .page {
+.single-post, .the-ones-post, .page {
   * {
     margin-inline: auto;
     max-width: 48rem;
