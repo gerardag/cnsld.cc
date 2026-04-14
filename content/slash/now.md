@@ -16,14 +16,15 @@ Cap en curs.
 
 ## Mirant
 
-- The Pitt
+- The Pitt S2
+- Euphoria S3
 
 Pots fer una ullada a les pel·lícules que miro al meu [Letterboxd](https://letterboxd.com/gerardag/).
 
 ## Projectes
 
 - Fent un petit projecte per determinar si una pel·lícula/sèrie [fa por](https://fapor.cnsld.cc) o no.
-- Fent una web on expose les dades de la meva [estació meteorològica](https://meteo.cnsld.cc).
+- Fent una web on exposa les dades de la meva [estació meteorològica](https://meteo.cnsld.cc).
 - Optimitzant els panells d'energia i clima de Home Assistant.
 
 
