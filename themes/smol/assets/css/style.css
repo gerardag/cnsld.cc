@@ -471,7 +471,6 @@ html.dark .lastmod {
     font-size: 1.5rem;
     font-weight: 700;
     margin-bottom: calc(var(--spacing) * 4);
-    opacity: 0.4;
   }
 }
 
