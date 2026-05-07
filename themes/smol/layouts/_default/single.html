@@ -1,0 +1,64 @@
+{{ define "main" }}
+{{ $type := .Type }}
+	{{ if eq $type "the-ones" }}
+		<main class="the-ones-post">
+	{{ else }}
+		<main class="single-post">
+	{{ end }}
+		<section>
+			<article>
+				{{ if or (eq $type "weeknote") (eq $type "slash") }}
+					<header>
+				{{ else if eq $type "the-ones" }}
+					<header class="the-ones-header">
+				{{ else }}
+					<header class="text-centered">
+				{{ end }}
+					<p class="time opacity-80">
+						{{ if .Date }}
+							{{ partial "time" .}}
+						{{ end }}
+						{{ if and .Lastmod (ne .Lastmod .Date) }}
+							<span class="lastmod">Actualitzat el <time datetime="{{ .Lastmod.Format "2006-01-02" }}">{{ partial "functions/localize-date" (dict "date" .Lastmod "format" site.Params.formats.date.long) }}.</time></span>
+						{{ end }}
+						{{ if eq $type "blog" }}
+							· {{ .ReadingTime }} min de lectura
+						{{ end }}
+					</p>
+					<h1>{{ .Title }}</h1>
+					{{ if eq $type "blog"}}
+						<h2 class="description">{{ .Description }}</h2>
+					{{ end }}
+					{{ if or (eq $type "weeknote") (eq $type "slash") (eq $type "blog") }}
+						<p class="tags">
+							{{ range .Params.tags }}
+								<a class="tag" href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">#{{ . }}</a>
+							{{ end }}
+						</p>
+					{{ end }}
+				</header>
+				<div class="post-content">
+					{{ if eq $type "weeknote" }}
+						<h2>{{ .Params.Week}}</h2>
+					{{ end }}
+
+					{{ .Content }}
+				</div>
+				{{ if eq $type "blog" }}
+				<nav class="post-nav">
+					<div class="post-nav-prev">
+						{{ with .Prev }}
+							<a href="{{ .RelPermalink }}">← {{ .Title }}</a>
+						{{ end }}
+					</div>
+					<div class="post-nav-next">
+						{{ with .Next }}
+							<a href="{{ .RelPermalink }}">{{ .Title }} →</a>
+						{{ end }}
+					</div>
+				</nav>
+				{{ end }}
+			</article>
+		</section>
+	</main>
+{{ end }}

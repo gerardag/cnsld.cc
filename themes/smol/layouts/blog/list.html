@@ -1,0 +1,37 @@
+{{ define "main" }}
+	<main class="site-main archive-main">
+		<section class="main-section">
+			<header>
+				<h1>Arxiu</h1>
+			</header>
+			<div class="archive-layout">
+				<div class="archive-posts">
+					{{ range (.Pages.GroupByDate "2006") }}
+					<div class="archive-year">
+						<h2>{{ .Key }}</h2>
+						<ul class="archive-list">
+							{{ range .Pages }}
+							<li class="archive-item">
+								<span class="archive-date">{{ .Date.Format "02/01" }}</span>
+								<a href="{{ .Permalink }}">{{ .Title }}</a>
+							</li>
+							{{ end }}
+						</ul>
+					</div>
+					{{ end }}
+				</div>
+
+				{{ with site.Taxonomies.tags }}
+				<aside class="archive-sidebar">
+					<h2>Tags</h2>
+					<div class="archive-tags">
+						{{ range $name, $pages := . }}
+						<a class="archive-tag" href="{{ "/tags/" | relLangURL }}{{ $name | urlize }}">#{{ $name }}</a>
+						{{ end }}
+					</div>
+				</aside>
+				{{ end }}
+			</div>
+		</section>
+	</main>
+{{ end }}

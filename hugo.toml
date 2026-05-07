@@ -1,0 +1,62 @@
+baseURL = 'https://cnsld.cc/'
+languageCode = 'ca-ES'
+title = 'Una mica de tot - cnsld.cc'
+theme = 'smol'
+
+[params]
+  description = "Un blog personal on comparteixo les coses que m'agraden i que em venen de gust."
+  author = "Gerard"
+
+[services.rss]
+  limit = 20
+
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
+[markup.goldmark.renderer]
+unsafe= true
+
+[markup.highlight]
+noClasses = false
+
+
+[permalinks]
+blog = "/blog/:year/:title/"
+
+[[module.mounts]]
+source = 'static'
+target = 'static'
+
+[[module.mounts]]
+source = 'images'
+target = 'static/images'
+
+[taxonomies]
+  tag = "tags"
+
+[pagination]
+  disableAliases = false
+  pagerSize = 100
+  path = 'page'
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Arxiu"
+url = "/blog"
+weight = 2
+
+[[menu.main]]
+name = "Now"
+url = "/slash/now"
+weight = 3
+
+[languages.ca]
+  weight = 1
+  [languages.ca.params.formats.date]
+    long = "2 de January de 2006"

@@ -1,0 +1,26 @@
+{{ define "main" }}
+	<main class="site-main">
+		<section class="main-section page">
+			<header>
+				<h1>{{ .Title }}</h1>
+				<h2>{{ .Description }}</h2>
+			</header>
+			<div class="post-content">
+				{{ range .Pages }}
+					{{ if eq .Type "slash" }}
+						<p><a href="{{ .RelPermalink }}">
+							<strong>{{ .LinkTitle }}</strong>
+						</a></p>
+						<p>{{ .Description }}</p>
+					{{ end }}
+					{{ if eq .Type "the-ones" }}
+						<p><a href="{{ .RelPermalink }}">
+							<strong>{{ .LinkTitle }}</strong>
+						</a></p>
+						<p>{{ .Description }}</p>
+					{{ end }}
+				{{ end }}
+			</div>
+		</section>
+	</main>
+{{ end }}

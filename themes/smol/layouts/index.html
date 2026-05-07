@@ -1,0 +1,9 @@
+{{ define "main" }}
+	<main class="site-main">
+		<section class="main-section">
+			{{ range .Paginator.Pages }}
+				{{ .Render "summary" }}
+			{{ end }}
+		</section>
+	</main>
+{{ end }}
