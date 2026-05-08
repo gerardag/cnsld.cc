@@ -16,7 +16,7 @@ Moltes coses, la meva feina és desenvolupador front-end. I al meu temps lliure 
 
 ## Mirant
 
-- The Pitt S2
+- Margo's got money troubles
 - Euphoria S3
 
 Pots fer una ullada a les pel·lícules que miro al meu [Letterboxd](https://letterboxd.com/gerardag/).
