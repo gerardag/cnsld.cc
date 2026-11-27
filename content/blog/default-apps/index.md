@@ -1,6 +1,7 @@
 ---
-title: Default apps
-description: Les apps que utilitzo per al meu dia a dia
+title: "Default apps: les apps que faig servir cada dia"
+slug: default-apps
+description: "Navegador, correu, notes, contrasenyes... les aplicacions del meu dia a dia."
 date: 2025-05-21T10:00:00Z
 lastmod: 2026-02-26T10:00:00Z
 comments: false

@@ -1,6 +1,7 @@
 ---
-title: Estratègia de backups
-description: Com gestiono les còpies de seguretat
+title: "La meva estratègia de backups al homelab"
+slug: estratègia-de-backups
+description: "Què copio, on i cada quant: TrueNAS, Hetzner i Borgbase per a les còpies de seguretat de casa."
 date: 2025-05-27T00:00:00Z
 draft: false
 tags: ["homelab", "backups"]

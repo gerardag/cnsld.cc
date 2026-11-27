@@ -1,6 +1,7 @@
 ---
-title: 'El meu homelab'
-description: 'Els ferros.'
+title: "El meu homelab: maquinari i serveis"
+slug: el-meu-homelab
+description: "Les màquines que tinc a casa, amb Proxmox, k8s i TrueNAS, i què hi faig córrer."
 date: 2025-05-10T10:00:00Z
 draft: false
 tags: ["homelab"]

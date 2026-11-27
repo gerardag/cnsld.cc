@@ -31,8 +31,8 @@
 					{{ end }}
 					{{ if or (eq $type "weeknote") (eq $type "slash") (eq $type "blog") }}
 						<p class="tags">
-							{{ range .Params.tags }}
-								<a class="tag" href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">#{{ . }}</a>
+							{{ range .GetTerms "tags" }}
+								<a class="tag" href="{{ .RelPermalink }}">#{{ .Data.Term }}</a>
 							{{ end }}
 						</p>
 					{{ end }}

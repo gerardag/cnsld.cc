@@ -5,8 +5,8 @@ type: slash
 comments: false
 ---
 
-### [Now](/slash/now)
+### [Now](/slash/now/)
 Un resum molt ràpid del que actualment tinc sobre la taula.
 
-### [Uses](/slash/uses)
+### [Uses](/slash/uses/)
 Les apps que utilitzo per al meu dia a dia.

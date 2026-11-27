@@ -23,7 +23,7 @@ noClasses = false
 
 
 [permalinks]
-blog = "/blog/:year/:title/"
+blog = "/blog/:year/:slug/"
 
 [[module.mounts]]
 source = 'static'
@@ -48,12 +48,12 @@ weight = 1
 
 [[menu.main]]
 name = "Arxiu"
-url = "/blog"
+url = "/blog/"
 weight = 2
 
 [[menu.main]]
 name = "Now"
-url = "/slash/now"
+url = "/slash/now/"
 weight = 3
 
 [languages.ca]

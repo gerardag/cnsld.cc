@@ -25,8 +25,8 @@
 				<aside class="archive-sidebar">
 					<h2>Tags</h2>
 					<div class="archive-tags">
-						{{ range $name, $pages := . }}
-						<a class="archive-tag" href="{{ "/tags/" | relLangURL }}{{ $name | urlize }}">#{{ $name }}</a>
+						{{ range . }}
+						<a class="archive-tag" href="{{ .Page.RelPermalink }}">#{{ .Page.Data.Term }}</a>
 						{{ end }}
 					</div>
 				</aside>

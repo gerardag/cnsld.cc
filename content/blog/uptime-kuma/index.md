@@ -1,6 +1,7 @@
 ---
-title: Uptime kuma
-description: Per saber quan alguna cosa no rutlla bé.
+title: "Uptime Kuma: monitoritzar els meus projectes amb alertes a Telegram"
+slug: uptime-kuma
+description: "Com vigilo el blog i els meus projectes amb Uptime Kuma i rebo els avisos a Telegram."
 date: 2026-03-05T10:00:00Z
 tags: ["homelab", "eines"]
 ---

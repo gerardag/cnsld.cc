@@ -1,13 +1,14 @@
 ---
-title: Nova nevera
-description: Va de Watts i de diners.
+title: "Nova nevera: quant estalvio de llum amb el canvi"
+slug: nova-nevera
+description: "Consum real de la nevera vella i la nova, i el que suposa en diners."
 date: 2025-06-07T00:00:00Z
 draft: false
 tags: ["consum", "llar"]
 ---
 Aquest passat més de Maig ha estat un mes terrible: primer la rentadora i després la nevera. La part bona és que ara tenim uns electrodomèstics que gasten molt menys.
 
-Fa uns dies vaig explicar [com anem amb la rentadora nova](/blog/consum-rentadora) i ara li toca a la nevera. Però en
+Fa uns dies vaig explicar [com anem amb la rentadora nova](/blog/2025/nova-rentadora/) i ara li toca a la nevera. Però en
 aquest cas és molt més fàcil.
 
 La nevera és una Haier HTW5620CNMG amb certificació energètica de classe C.

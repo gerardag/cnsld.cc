@@ -1,0 +1,8 @@
+{{- $bg := resources.Get "og/fons.png" -}}
+{{- $bold := resources.Get "og/Inter-Bold.ttf" -}}
+{{- $reg := resources.Get "og/Inter-Regular.ttf" -}}
+{{- $title := images.Text .Title (dict "font" $bold "size" 64 "linespacing" 10 "color" "#1a1a1a" "x" 80 "y" 200) -}}
+{{- $foot := images.Text (printf "cnsld.cc  ·  %s" (.Date.Format "02/01/2006")) (dict "font" $reg "size" 30 "color" "#777777" "x" 80 "y" 520) -}}
+{{- $img := $bg | images.Filter $title $foot -}}
+{{- $img = $img.Resize "1200x630 png" -}}
+{{- return $img -}}

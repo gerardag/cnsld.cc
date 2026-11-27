@@ -1,6 +1,7 @@
 ---
-title: Fa por?
-description: Per saber si hi haurà espants.
+title: "Fa por?: una web per saber si una pel·lícula o sèrie fa por"
+slug: fa-por
+description: "He fet una petita app que, amb dades de TMDB, et diu si un títol fa por, té sustos o només genera tensió."
 date: 2026-02-25T10:00:00Z
 tags: ["projectes", "dev"]
 ---

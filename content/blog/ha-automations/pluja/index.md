@@ -1,6 +1,7 @@
 ---
-title: Pluja
-description: Per saber si plou i haig de guardar la roba
+title: "Pluja: l'automatització de Home Assistant que ens avisa quan plou"
+slug: pluja
+description: "Com una estació meteorològica i Home Assistant ens avisen quan comença a ploure i tenim roba estesa."
 date: 2026-03-07T10:00:00Z
 tags:
   - home-assistant

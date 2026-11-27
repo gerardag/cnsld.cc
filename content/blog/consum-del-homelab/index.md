@@ -1,12 +1,13 @@
 ---
-title: Controlar el consum del homelab
-description: Va de Watts i de diners.
+title: "Quant consumeix el meu homelab i quant em costa"
+slug: controlar-el-consum-del-homelab
+description: "Com mesuro el consum elèctric del homelab i què em suposa en euros."
 date: 2025-05-20T10:00:00Z
 draft: false
 tags: ["homelab", "consum"]
 ---
 
-Estic molt content de tenir un [homelab](/blog/el-meu-homelab) a casa. Em permet tenir serveis com Nextcloud, Jellyfin, Vaultwarden, Adguard, Home Assistant i d'altres que em fan la vida més fàcil i a més em permet aprendre coses i jugar amb eines que desconec. I tot això sense dependre de terceres empreses (tant per lo bo com per lo dolent).
+Estic molt content de tenir un [homelab](/blog/2025/el-meu-homelab/) a casa. Em permet tenir serveis com Nextcloud, Jellyfin, Vaultwarden, Adguard, Home Assistant i d'altres que em fan la vida més fàcil i a més em permet aprendre coses i jugar amb eines que desconec. I tot això sense dependre de terceres empreses (tant per lo bo com per lo dolent).
 
 El que ja no em fa tant feliç és l'electricitat que consumeix.
 

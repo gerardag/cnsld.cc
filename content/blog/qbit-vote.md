@@ -1,7 +1,8 @@
 ---
-title: "qbit-voter"
+title: "qbit-voter: agrair els torrents de qBittorrent en dos clics"
+slug: qbit-voter
 date: 2026-05-05T10:00:00+02:00
-description: "Perquè s'ha de ser agraït."
+description: "Una app web open source que et llista els torrents que encara no has agraït i et porta directament a votar-los."
 tags: ["homelab", "eines"]
 ---
 

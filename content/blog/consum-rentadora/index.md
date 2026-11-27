@@ -1,6 +1,7 @@
 ---
-title: Nova rentadora
-description: Va de Watts i de diners.
+title: "Nova rentadora: quant estalvio de llum amb el canvi"
+slug: nova-rentadora
+description: "Consum real de la rentadora vella i la nova, el que suposa en diners i què n'aprofito amb Home Assistant."
 date: 2025-06-04T00:00:00Z
 draft: false
 tags: ["consum", "llar"]
